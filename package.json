@@ -1,0 +1,23 @@
+{
+  "name": "basic-unit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bob-fornal/basic-unit-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bob-fornal/basic-unit-test/issues"
+  },
+  "homepage": "https://github.com/bob-fornal/basic-unit-test#readme",
+  "scripts": {
+    "test": "jasmine \"src/**/*.spec.js\""
+  },
+  "devDependencies": {
+    "jasmine": "^4.4.0"
+  }
+}
